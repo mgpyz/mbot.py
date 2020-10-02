@@ -20,7 +20,6 @@ async def serverinfo(ctx):
     name = str(ctx.guild.name)
     description = str(ctx.guild.description)
     boostLevel = str(ctx.guild.premium_tier)
-    id = str(ctx.guild.id)
     region = str(ctx.guild.region)
     memberCount = str(ctx.guild.member_count)
     icon = str(ctx.guild.icon_url)
@@ -36,7 +35,7 @@ async def serverinfo(ctx):
 
     )
     embed.set_thumbnail(url=icon)
-    embed.add_field(name="Server ID", value=id, inline=True)
+    embed.add_field(name="Server ID", value=str(ctx.guild.id), inline=True)
     embed.add_field(name="Rules Channel", value=rulesChannel, inline=True)
     embed.add_field(name="Region", value=region, inline=True)
     embed.add_field(name="Boost Level", value=boostLevel, inline=True)
@@ -101,5 +100,4 @@ async def info(ctx):
     await ctx.send(embed=embed)
 
 
-client.run('NzYxMzc5MTgyNDE5NzcxMzkz.X3Zvng.7siZWzWIOcsqDIF7qMYm9pU9tUE')
-
+client.run('NzYxMzc5MTgyNDE5NzcxMzkz.X3Zvng.7RYeKXJjifpyyP3ABxhPBp1WvqA')
