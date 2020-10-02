@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    mgbot.py
   </head>
   <body>
     mbot.py
