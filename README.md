@@ -1,4 +1,10 @@
-# mbot.py
-discord bot im working on | rating:
-[![CodeFactor](https://www.codefactor.io/repository/github/mgpyz/mbot.py/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/mgpyz/mbot.py)
-
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    mbot.py
+    <p><a href="https://www.codefactor.io/repository/github/mgpyz/mbot.py"><img src="https://www.codefactor.io/repository/github/mgpyz/mbot.py/badge" alt="CodeFactor" /></a></p>
+  </body>
+  
+</html>
